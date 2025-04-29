@@ -4,6 +4,22 @@
   <meta charset="UTF-8">
   <title>Расы</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .race-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .race-section img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .race-section div {
+      max-width: 600px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,34 +32,44 @@
   </header>
 
   <main>
-    <section>
-      <h2>Эльфы</h2>
-      <img src="https://dnd.su/gallery/articles/79_3_1522773614_s.jpg" alt="Эльфы" width="300">
-      <p>Изящные и ловкие, с глубокими магическими корнями.</p>
+    <section class="race-section">
+      <img src="https://dnd.su/gallery/articles/79_3_1522773614_s.jpg" alt="Эльфы">
+      <div>
+        <h2>Эльфы</h2>
+        <p>Изящные и ловкие, с глубокими магическими корнями.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Дворфы</h2>
-      <img src="https://dnd.su/gallery/articles/78_1_1605123241_s.png" alt="Дворфы" width="300">
-      <p>Стойкие воины с выдающимся мастерством кузнечного дела.</p>
+    <section class="race-section">
+      <img src="https://dnd.su/gallery/articles/78_1_1605123241_s.png" alt="Дворфы">
+      <div>
+        <h2>Дворфы</h2>
+        <p>Стойкие воины с выдающимся мастерством кузнечного дела.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Тифлинги</h2>
-      <img src="https://dnd.su/gallery/articles/86_3_1522773343_s.jpg" alt="Тифлинг" width="300">
-      <p>Потомки демонической крови, наделённые врождённой харизмой и магией.</p>
+    <section class="race-section">
+      <img src="https://dnd.su/gallery/articles/86_3_1522773343_s.jpg" alt="Тифлинг">
+      <div>
+        <h2>Тифлинги</h2>
+        <p>Потомки демонической крови, наделённые врождённой харизмой и магией.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Гитианки</h2>
-      <img src="https://wiki.aerie.ru/images/thumb/5/54/Githyanki_Pl.jpg/200px-Githyanki_Pl.jpg" alt="Гитианки" width="300">
-      <p>Воинственный народ из Астрального Плана, мастера фехтования и антимагии.</p>
+    <section class="race-section">
+      <img src="https://wiki.aerie.ru/images/thumb/5/54/Githyanki_Pl.jpg/200px-Githyanki_Pl.jpg" alt="Гитианки">
+      <div>
+        <h2>Гитианки</h2>
+        <p>Воинственный народ из Астрального Плана, мастера фехтования и антимагии.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Дроу</h2>
-      <img src="https://dnd.su/gallery/bestiary/145_1514267589_s.png" alt="Дроу" width="300">
-      <p>Темные эльфы из Подземья, искусные в магии и интригах.</p>
+    <section class="race-section">
+      <img src="https://dnd.su/gallery/bestiary/145_1514267589_s.png" alt="Дроу">
+      <div>
+        <h2>Дроу</h2>
+        <p>Темные эльфы из Подземья, искусные в магии и интригах.</p>
+      </div>
     </section>
   </main>
 </body>
